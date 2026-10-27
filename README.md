@@ -34,9 +34,11 @@ Demo data in this repo, when added later, will be synthetic only. Never use a re
 
 ## Run locally (owner steps, after the repo exists)
 
+Use pnpm, not npm.
+
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 Create the D1 database with the Cloudflare dashboard or CLI, then fill in its identifier in your own deployment configuration — do NOT commit a database identifier, an email address, an API key, or any token to this repo.
