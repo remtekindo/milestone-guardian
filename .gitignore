@@ -1,0 +1,11 @@
+node_modules
+.output
+.nuxt
+.nitro
+dist
+.env
+.env.*
+.dev.vars
+*.log
+.DS_Store
+.wrangler
